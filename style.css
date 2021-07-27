@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(216, 228, 225);
+}
+
+.main-container {
+    width: 100%;  
+}
+
+.box-container {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Otomanopee One', sans-serif;
+}  
+
+.orange-box {
+    height: 100px;
+    background-color: rgb(248, 151, 24);
+    margin-bottom: 15px;
+}
+
+.orange-box2{
+    height: 100px;
+    background-color: rgb(248, 151, 24);
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.green-box {
+    height: 150px;
+    background-color: #24eb2e;
+    margin-bottom: 15px;
+}
+
+.blue-box {
+    height: 250px;
+    background-color: #33b5e5;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.blue-box2 {
+    height: 250px;
+    background-color: #33b5e5;
+    margin-bottom: 15px;
+}
+
+.blue-box3 {
+    height: 250px;
+    background-color: #33b5e5;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+.grey-box {
+    height: 120px;
+    background-color: #999;
+    margin-bottom: 15px;
+}
+
+.grey-box2 {
+    height: 120px;
+    background-color: #999;
+    margin-bottom: 15px;
+}
+
+.grey-box3 {
+    height: 120px;
+    background-color: #999;
+    margin-bottom: 15px;
+}
+
+.grey-box4 {
+    height: 120px;
+    background-color: #999;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 320px) {
+    /* For mobile phone */
+    .orange-box,
+    .orange-box2 {
+        width: 100%;
+        height: 100px;
+    }
+    .green-box {
+        width: 100%;
+        height: 150px;
+    }
+    .blue-box,
+    .blue-box2,
+    .blue-box3 {
+        width: 100%;
+        height: 250px;
+    }
+    .grey-box,
+    .grey-box2,
+    .grey-box3,
+    .grey-box4 {
+        width: 100%;
+        height: 120px;
+    }
+}
+
+@media only screen and (min-width: 321px) {
+    /* For tablets */
+    .orange-box,
+    .orange-box2 {
+        width: 100%;
+        height: 100px;
+    }
+    .green-box {
+        width: 100%;
+        height: 300px;
+    }
+    .blue-box,
+    .blue-box2,
+    .blue-box3 {
+        width: 100%;
+        height: 150px;
+    }
+
+    .grey-box,
+    .grey-box2,
+    .grey-box3,
+    .grey-box4 {
+        width: 43%;
+        height: 150px;
+        margin-left: 15px;
+        display: inline-block;
+    }    
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop */
+    .orange-box,
+    .orange-box2 {
+        width: 49%;
+        height: 150px;
+        display: inline-block;
+        
+    }
+
+    .green-box {
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+
+    .blue-box,
+    .blue-box2,
+    .blue-box3 {
+        width: 32%;
+        height: 250px;
+        display: inline-block;
+    }
+
+    .grey-box,
+    .grey-box2,
+    .grey-box3,
+    .grey-box4 {
+        width: 22%;
+        height: 200px;
+    }
+}
